@@ -19,7 +19,6 @@ export class AppComponent implements OnInit {
     this.isLoggedIn$
       .pipe(distinctUntilChanged())
       .subscribe(async (loggedIn: any) => {
-        console.log(loggedIn)
         // Queue the navigation after initialNavigation blocking is completed
         setTimeout(() => {
           if (!loggedIn) {
