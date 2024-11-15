@@ -20,7 +20,7 @@ export default withModuleFederation(
      * ]
      */
     remotes: [
-      ['login', 'http://localhost:4200/login']
+      ['login', 'http://localhost:3000/login']
     ]
   },
   { dts: false }
